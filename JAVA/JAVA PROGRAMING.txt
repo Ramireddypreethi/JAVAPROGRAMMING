@@ -1,0 +1,126 @@
+                                         JAVA PROGRAMING
+
+JAVA: It is object Oriented Language.
+
+
+x.java--->x.class(byte code)--->JVM(java virtual machine)--->OUTPUT
+
+    1) JVM:Converts bytecode into machine code.It can identify which microprocessor we are 
+
+using and it convert code according to microprocessor
+
+    2) Microprocessor(like spark,pentium): it is a system which wont do anything ,jvm in that system will convert 
+
+into machine code(that is understandable by anyprocessor).
+-------------------------------------------------------------
+
+                              WHY WE USE JAVA? WHY IT IS PLATFORM INDEPENDENT LANGUAGE
+
+ 
+ Ans: we can run on any processor or system and produce same output in any platform so it is 
+
+suitable for s/w development and internet.
+
+ PENTIUM(PROCESSOR)---->X.CLASS---->jvm(identify the microprocessor)------>output
+(X.JAVA)
+
+----------------------------------------------------------------------------
+                                       INTRODUCTION TO JAVA
+1990---->SUN MICROSYSTEM-->STEALTH PROJECT CALLED AS GREEN PROJECT
+1991---->BillJoy,james gosling,mike sheradin
+        
+         c,c++ -->patrick k naughton
+                  java platform
+oak----->java
+-----------------------------------------------------------------------------------
+                                         FEATURES OF JAVA
+1) SIMPLE PROGRAMMING LANGUAGE
+
+2) OBJECT ORIENTED LANGUAGE---->IT USES OBJECTS AND CLASSES 
+
+               OBJECT:REAL WORLD EXISTANCE which contains variables and methods
+
+                Ex:human Being,A book,A tree and so on.
+                   properties of human:eating,dancing
+                   "         "   book:name,author etc
+                   "         "   tree:height etc
+                 
+
+               CLASS:1)A Group Of Objects Exhibiting same behaviour (properties+ actions)                      
+
+will come under the same group called class.
+                     2)A class can have many objects.
+
+ex: dog--class name
+    
+   class contains: variables/properties:name,age,height
+      
+
+      methods/actions:eating{
+                 },    barking{
+                              }
+--------------------------------------------------------------------
+                            IS JAVA PURE OOP LANGUAGE?
+
+---> Java is object oriented language but not purely object oriented language becoz it not only contains classes and objects ,it also contains primitive datatypes(int,float,char etc) and in java multiple inheritance doesnot exist .so java is not purely object oriented language.
+
+JVM---->Heart of entire java prgm execution process.it uses seperate thread to execute each method.JVM IS LIKE INTERMEDIATE B/W HIGH LANGUAGE WE SPEAK CONVERTS INTO MACHINE CODE.
+  
+
+        class file-------->class laoder
+ 
+------------------------------------------------------------------------------------------
+|method area   heap area    java stack     pc registers   native method  -->all in runtime |data access 
+-------------------------------------------------------------------------------------------                
+|
+|
+
+interpreter + jit compiler <--> native method <--- native method libraries
+|
+|
+operating system
+
+
+RUNTIE DATA ACCESS:IT IS A MEMORY TO EXECUTE PROGRAM
+1)method area:memory block stores code of variables and methods in java class.
+
+2)method heap:area where objects are created.
+
+3)java stack:memory allocation like to store data and result.
+
+4)pc registers: 1)it contains memory address of methods and method instructions.
+                2)methods have seperate registers.
+
+5)native method stack:to execute the native methods we require some librarires so we use this.
+
+EXECUTION ENGINE contains INTERPRETER and JIT:
+   1)JIT CONTAINS BYTE CODE INSTRUCTION INTO MACHINE CODE JUST IN TIME.THESE JIT IS IN       JVM."Increase the speed of execution of program"
+
+   2)Interpreter: converts byte code into machine code.
+
+------------------------------------------------------------------------
+DIFFERENCE B/W C AND JAVA:POINTERS,JAVA IS PLATFORM INDEPENDENT AND C IS PLATFORM DEPENDENT
+
+-----------------------------------------------------------------------------------------
+
+bugs---->errors---->debugging the code
+
+TYPES OF ERRORS IN JAVA PROGRAMS:
+
+1)Compile time error: Syntatically errors found in program when program fails to compile.
+
+2)Runtime Error:Inefficiency of computer system to execute particular statement. (OR) inability of microprocessor to execute some statement.
+
+3)Logical Error:
+
+4)Exception:
+ these are runtime errors but these are detect in both runtime and compile ,which are detected during runtime is called unchecked exception ie exception which is not checked by JVM and compiler and these are considered as unrecoverable,whereas checkedException are occured during compile time, which are checked by JAVA COMPILER and can handle exception.
+
+
+
+
+
+
+
+
+
